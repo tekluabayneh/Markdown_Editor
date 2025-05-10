@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Realtime Markdown Viewer</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="h-full flex flex-row items-center justify-center p-2">
+    <section class="h-[100vh] w-full flex gap-5">
+      <textarea
+        class="h-full overflow-auto border-l-bluee overflow-auto outline-none resize w-[32rem] border border-1 rounded"
+        id="pad"
+      >
+Write your text here..</textarea
+      >
+      <div
+        class="h-12 w-full rounded-lg bg-trasparent border border-purple-400 border-2 text-puple-500 full-height"
+        id="markdown"
+      ></div>
+    </section>
+
+    <script src="https://cdn.rawgit.com/showdownjs/showdown/1.0.2/dist/showdown.min.js"></script>
+    <script type="module" src="../public/script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
