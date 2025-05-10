@@ -1,8 +1,9 @@
 import express from "express";
-
 import path from "path";
+// import sharedb from "sharedb";
 import { fileURLToPath } from "url";
 const app = express();
+// const sharedbTyped: any = sharedb;
 // Derive __dirname equivalent for ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

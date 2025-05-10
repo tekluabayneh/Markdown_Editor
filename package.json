@@ -14,7 +14,9 @@
   "description": "",
   "devDependencies": {
     "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
     "@types/showdown": "^2.0.6",
+    "@types/ws": "^8.18.1",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
@@ -22,7 +24,9 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "share": "^0.7.40",
-    "showdown": "^2.1.0"
+    "sharedb": "^5.2.1",
+    "showdown": "^2.1.0",
+    "types": "file:../../../../../share",
+    "ws": "^8.18.2"
   }
 }
